@@ -1,46 +1,41 @@
 ![Banner](https://github.com/philliphqs/YouTube-Converter/blob/master/resources/banner.png)
-
+---
 ![GitHub issues](https://img.shields.io/github/issues/philliphqs/YouTube-Converter?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/philliphqs/YouTube-Converter?style=flat-square)
 ![GitHub all releases](https://img.shields.io/github/downloads/philliphqs/YouTube-Converter/total?style=flat-square)
 
-> Use any device which can run python as a streamdeck like a Raspberry Pi
+In these times YouTube Converter are just filled with ads, are slow or not working. This is the perfect alternative.
 
-An nice alternative for the Elgato StreamDeck if you want to save some money
-
-![](https://media.discordapp.net/attachments/761721971129843712/874049796338483290/unknown.png?width=782&height=440)
+![](https://i.imgur.com/pwd5kjg.png)
 
 
 ## Installation
 
-  1. Download [``StreamDeck-Server-Setup.exe``](https://github.com/philliphqs/)
-  2. Take your StreamDeck device and download Python 3.7
-  3. Type this command in Terminal 
-```
-rm StreamDeck-Client-Setup.py
-wget https://github.com/philliphqs/StreamDeck/releases/download/0.0.4-alpha/StreamDeck-Client-Setup.py
-sudo python3 StreamDeck-Client-Setup.py
-```
+  1. Download [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
+  2. Download [``YouTube-Converter-Addon.crx``](https://github.com/philliphqs/)
+  3. Run [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
+  4. Go to your Browser (Chrome, Brave or other Chromium Browser) 
+  5. Go to [``chrome//:extensions``](chrome://extensions)
+  6. Drag the [``YouTube-Converter-Addon.crx``](https://github.com/philliphqs/) in your browser
+  7. Install the addon and YouTube-Converter is now on your computer :D
+
 ## Clone Repository
 
 ```sh
-git clone https://github.com/philliphqs/StreamDeck.git
+git clone https://github.com/philliphqs/YouTube-Converter.git
 ```
 
 ## Release History
 
 * 0.0.1-alpha
     * Prototype
-* 0.0.2-alpha
-    * Setup installer
-    * System tray
 
 ## Coming features
-* 0.1.0-alpha
-    * Customization of Buttons
-    * Layout Editor
-* 0.1.5-alpha
-    * Support for phone/tablets
+* 0.0.2-alpha
+    * More formats (wav, avi, ...)
+    * Custom Path
+* 0.1.0
+    * Publish addon to Chrome Webstore (cost: 5€)
 
 ## Meta
 
@@ -48,7 +43,7 @@ philliphqs – [@phillip_hqs](https://twitter.com/philliphqs) – [philliphqs@pr
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/philliphqs/](https://github.com/philliphqs/)
+<a href="https://www.buymeacoffee.com/phillip.hqs"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=phillip.hqs&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"></a>
 
 ## Contributing
 
