@@ -1,4 +1,4 @@
-![Banner](https://img.shields.io/github/downloads/philliphqs/StreamDeck/total?style=flat-square)
+![Banner](https://github.com/philliphqs/YouTube-Converter/blob/master/resources/banner.png)
 
 ![GitHub issues](https://img.shields.io/github/issues/philliphqs/YouTube-Converter?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/philliphqs/YouTube-Converter?style=flat-square)
