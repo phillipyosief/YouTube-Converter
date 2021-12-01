@@ -1,4 +1,6 @@
+import os
 import socket
+from winreg import *
 
 from flask import Flask, jsonify, redirect, request
 from flask_cors import CORS
@@ -10,6 +12,11 @@ CORS(app)
 
 localip = [(s.connect(('8.8.8.8', 53)), s.getsockname()[0], s.close()) for s in
            [socket.socket(socket.AF_INET, socket.SOCK_DGRAM)]][0][1]
+
+
+@app.route('/install_extension')
+def install_extension():
+    os.system('"C:\Program Files\Google\Chrome\Application\chrome.exe" ')
 
 
 @app.route('/')
