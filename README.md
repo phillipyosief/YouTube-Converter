@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/philliphqs/StreamDeck/main/Project/ICON_with_TEXT_compressed.png" alt="ICON_with_TEXT" width="670" height="120">
+![Banner](https://github.com/philliphqs/YouTube-Converter/blob/master/resources/banner.png)
 
-![GitHub issues](https://img.shields.io/github/issues/philliphqs/StreamDeck?style=flat-square)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/philliphqs/StreamDeck?style=flat-square)
-![GitHub all releases](https://img.shields.io/github/downloads/philliphqs/StreamDeck/total?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/philliphqs/YouTube-Converter?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/philliphqs/YouTube-Converter?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/philliphqs/YouTube-Converter/total?style=flat-square)
 
 > Use any device which can run python as a streamdeck like a Raspberry Pi
 
