@@ -29,6 +29,8 @@ git clone https://github.com/philliphqs/YouTube-Converter.git
 * 0.0.2-alpha
     * More formats (wav, avi, ...)
     * Custom Path
+* 0.1.0
+    * Publish addon to Chrome Webstore (cost: 5€)
 
 ## Meta
 
@@ -36,7 +38,7 @@ philliphqs – [@phillip_hqs](https://twitter.com/philliphqs) – [philliphqs@pr
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/philliphqs/](https://github.com/philliphqs/)
+<a href="https://www.buymeacoffee.com/phillip.hqs"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=phillip.hqs&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"></a>
 
 ## Contributing
 
