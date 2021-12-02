@@ -34,6 +34,7 @@ git clone https://github.com/philliphqs/YouTube-Converter.git
 * 0.0.2-alpha
     * More formats (wav, avi, ...)
     * Custom Path
+    * Sytem tray
 * 0.1.0
     * Publish addon to Chrome Webstore (cost: 5€)
 
