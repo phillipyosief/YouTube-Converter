@@ -12,12 +12,8 @@ In these times YouTube Converter are just filled with ads, are slow or not worki
 ## Installation
 
   1. Download [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
-  2. Download [``YouTube-Converter-Addon.crx``](https://github.com/philliphqs/)
-  3. Run [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
-  4. Go to your Browser (Chrome, Brave or other Chromium Browser) 
-  5. Go to [``chrome//:extensions``](chrome://extensions)
-  6. Drag the [``YouTube-Converter-Addon.crx``](https://github.com/philliphqs/) in your browser
-  7. Install the addon and YouTube-Converter is now on your computer :D
+  2. Run [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
+  3. Download YouTube-Converter from the Chrome Webstore 
 
 ## Clone Repository
 
