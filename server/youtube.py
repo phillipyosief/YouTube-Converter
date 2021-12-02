@@ -6,7 +6,6 @@ from flask import Flask, blueprints, jsonify, request
 from pytube import Playlist
 from pytube import YouTube as YT
 from pytube import exceptions
-import pytube
 
 YouTube = blueprints.Blueprint('YouTube', __name__, url_prefix='/YouTube')
 

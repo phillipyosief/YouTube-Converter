@@ -1,11 +1,13 @@
 import os
 import socket
+import ctypes
 from winreg import *
 
 from flask import Flask, jsonify, redirect, request
 from flask_cors import CORS
 
 from server.youtube import YouTube
+from server.web import Web
 
 app = Flask(__name__)
 CORS(app)
@@ -32,13 +34,17 @@ def init_app():
     print("[i] Listening on {}:{}".format("127.0.0.1", 2222))
     print("[i] Registering blueprints")
 
-    bps = [YouTube]
+    bps = [YouTube, Web]
     for bp in bps:
         try:
             app.register_blueprint(bp)
             print("[i] Registered {}".format(bp.name))
         except Exception as e:
             print("[!] Error registering blueprint: {}".format(e))
+            
+            if bp is YouTube:
+                ctypes.windll.user32.MessageBoxW(0, f'Your YouTube-Converter installation is broken!\n "Cannot register YouTube Blueprint"', "YouTube-Converter", 4)
+                exit()
     
     print(app.url_map)
 
