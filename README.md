@@ -1,4 +1,4 @@
-![Banner](https://github.com/philliphqs/YouTube-Converter/blob/master/resources/banner.png)
+![Banner](https://raw.githubusercontent.com/philliphqs/YouTube-Converter/alpha/resources/GitHub/banner.png)
 ---
 ![GitHub issues](https://img.shields.io/github/issues/philliphqs/YouTube-Converter?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/philliphqs/YouTube-Converter?style=flat-square)
