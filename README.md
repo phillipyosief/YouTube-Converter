@@ -37,6 +37,7 @@ git clone https://github.com/philliphqs/YouTube-Converter.git
     * Sytem tray
 * 0.1.0
     * Publish addon to Chrome Webstore (cost: 5€)
+    * BetterDiscord Addon
 
 ## Meta
 
