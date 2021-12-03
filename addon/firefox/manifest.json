@@ -1,8 +1,10 @@
 {
+
+    "manifest_version": 2,
     "name": "YouTube-Converter",
     "description": "Download YouTube Videos and convert them to MP3 or MP4",
     "version": "0.0.2",
-    "manifest_version": 3,
+  
     "icons": {
         "32": "/icons/Icon-32.png",
         "64": "/icons/Icon-64.png",
@@ -10,15 +12,23 @@
         "256": "/icons/Icon-256.png",
         "512": "/icons/Icon-512.png",
         "1024": "/icons/Icon-1024.png"
-      },
-      "action": {
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["request.js"]
+      }
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/Icon-32.png",
+        "default_title": "YouTube-Converter",
         "default_popup": "index.html"
       },
-      "content_scripts": [{
-        "js": ["request.js"],
-        "matches": ["https://www.youtube.com/*"]
-      }],
-      "permissions": [
-        "tabs",
-        "activeTab"]
+
+    "permissions": [
+        "activeTab"
+      ]
+  
   }
