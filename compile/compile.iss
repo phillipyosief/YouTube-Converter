@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "YouTube-Converter"
-#define MyAppVersion "0.0.1"
+#define MyAppVersion "0.0.2"
 #define MyAppPublisher "hqsartworks"
 #define MyAppURL "https://www.philliphqs.github.io/"
 #define MyAppExeName "YouTube-Converter.exe"
@@ -20,20 +20,20 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\LICENSE.txt
-InfoAfterFile=C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\compile\INFORMATION.txt
+LicenseFile=F:\Dokumente\GitHub\YouTube-Converter\LICENSE.txt
+InfoAfterFile=F:\Dokumente\GitHub\YouTube-Converter\compile\INFORMATION.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\compile
+OutputDir=F:\Dokumente\GitHub\YouTube-Converter\compile
 OutputBaseFilename=YouTube-Converter-Setup
-SetupIconFile=C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\compile\icon\Icon-1024.ico
+SetupIconFile=F:\Dokumente\GitHub\YouTube-Converter\compile\icon\Icon-1024.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 WizardSmallImageBackColor=clWhite
-WizardSmallImageFile=C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\compile\icon\WizardSmallImage.bmp
-WizardImageFile="C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\compile\icon\WizardImageFile.bmp"
+WizardSmallImageFile=F:\Dokumente\GitHub\YouTube-Converter\compile\icon\WizardSmallImage.bmp
+WizardImageFile=F:\Dokumente\GitHub\YouTube-Converter\compile\icon\WizardImageFile.bmp
 DisableWelcomePage=no
 
 BackColor=clBlue
@@ -47,7 +47,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\yosie\Desktop\UsefullToolsForWindows\YouTube-Converter\compile\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "F:\Dokumente\GitHub\YouTube-Converter\compile\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

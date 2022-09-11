@@ -7,7 +7,7 @@
   },
   {
    "optionDest": "filenames",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/main.py"
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/main.py"
   },
   {
    "optionDest": "onefile",
@@ -19,7 +19,7 @@
   },
   {
    "optionDest": "icon_file",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/resources/Icon-1024.ico"
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/resources/Icon-1024.ico"
   },
   {
    "optionDest": "name",
@@ -71,27 +71,27 @@
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/server;server/"
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/server;server/"
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/resources;resources/"
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/resources;resources/"
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/resources/banner.png;."
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/resources/banner.png;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/resources/Icon-1024.ico;."
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/resources/Icon-1024.ico;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/server/youtube.py;."
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/server/youtube.py;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/yosie/Desktop/UsefullToolsForWindows/YouTube-Converter/server/youtube_test.py;."
+   "value": "F:/Dokumente/GitHub/YouTube-Converter/server/youtube_test.py;."
   }
  ],
  "nonPyinstallerOptions": {
