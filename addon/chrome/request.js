@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('[i] DownloadAsMP4 clicked');
             var currenturl = tabs[0].url
       
-            fetch('http://localhost:2222/YouTube/convert', {
+            fetch('http://localhost:5000/YouTube/convert', {
               method: "GET",
               headers: {"url": currenturl,
                         "type": "mp4"}
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('[i] DownloadAsMP3 clicked');
             var currenturl = tabs[0].url
       
-            fetch('http://localhost:2222/YouTube/convert', {
+            fetch('http://localhost:5000/YouTube/convert', {
               method: "GET",
               headers: {"url": currenturl,
                         "type": "mp3"}
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('[i] Bugreport clicked');
         chrome.tabs.query({'active': true, 'windowId': chrome.windows.WINDOW_ID_CURRENT},
         function(tabs){
-            fetch('http://localhost:2222/web/bugreport', {
+            fetch('http://localhost:5000/web/bugreport', {
               method: "GET"
             })
             .then(response => response.json())

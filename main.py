@@ -18,7 +18,7 @@ localip = [(s.connect(('8.8.8.8', 53)), s.getsockname()[0], s.close()) for s in
 
 @app.route('/install_extension')
 def install_extension():
-    os.system('"C:\Program Files\Google\Chrome\Application\chrome.exe" ')
+    pass
 
 
 @app.route('/')
@@ -31,7 +31,7 @@ def init_app():
     Init of the App and the routes for the API
     """
     print("[+] Starting Server")
-    print("[i] Listening on {}:{}".format("127.0.0.1", 2222))
+    print("[i] Listening on {}:{}".format("127.0.0.1", 5000))
     print("[i] Registering blueprints")
 
     bps = [YouTube, Web]
@@ -55,7 +55,7 @@ def main():
     """
 
     init_app()
-    app.run(port=2222, debug=False)   # Flask server 
+    app.run(port=5000, debug=False)   # Flask server 
 
 
 if __name__ == '__main__':
