@@ -28,12 +28,14 @@ git clone https://github.com/philliphqs/YouTube-Converter.git
 
 ## Coming features
 * 0.0.2-alpha
+    * Publish addon to Firefox Store (already published)
+* 0.0.4
     * More formats (wav, avi, ...)
     * Custom Path
-    * Sytem tray
+    * System tray
 * 0.1.0
     * Publish addon to Chrome Webstore
-    * BetterDiscord Addon
+    * Editable MP3 data
 
 ## Meta
 
