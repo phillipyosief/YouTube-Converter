@@ -1,6 +1,7 @@
 import os
 import socket
 import ctypes
+import threading
 from winreg import *
 
 from flask import Flask, jsonify, redirect, request
@@ -8,6 +9,11 @@ from flask_cors import CORS
 
 from server.youtube import YouTube
 from server.web import Web
+
+from tray import tray
+from app.run import start_app
+
+from resources.variables import Product
 
 app = Flask(__name__)
 CORS(app)
@@ -41,21 +47,35 @@ def init_app():
             print("[i] Registered {}".format(bp.name))
         except Exception as e:
             print("[!] Error registering blueprint: {}".format(e))
-            
+
             if bp is YouTube:
-                ctypes.windll.user32.MessageBoxW(0, f'Your YouTube-Converter installation is broken!\n "Cannot register YouTube Blueprint"', "YouTube-Converter", 4)
+                ctypes.windll.user32.MessageBoxW(0,
+                                                 f'Your {Product.Name} installation is broken!\n "Cannot register YouTube Blueprint"',
+                                                 Product.Name, 4)
                 exit()
-    
+
     print(app.url_map)
 
 
 def main():
     """
-    Main function of the app (with tray, etc.)
+    Main function of the resources (with tray, etc.)
     """
+    x = threading.Thread(target=tray.start, args=(1,))
+    x.start()
+
+    y = threading.Thread(target=start_app, args=(2,))
+    y.start()
 
     init_app()
-    app.run(port=5000, debug=False)   # Flask server 
+    app.run(port=5000, debug=False)  # Flask server
+
+
+def close():
+    """
+    Close function of the resources (with tray, etc.)
+    """
+    request.environ.get('werkzeug.server.shutdown')  # exit flask
 
 
 if __name__ == '__main__':

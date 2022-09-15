@@ -1,6 +1,5 @@
 import ctypes
 import os
-from winreg import *
 
 from flask import Flask, blueprints, jsonify, request
 from pytube import Playlist
@@ -11,11 +10,9 @@ from datetime import datetime
 
 YouTube = blueprints.Blueprint('YouTube', __name__, url_prefix='/YouTube')
 
-module = {"name": "YouTube", "version": "0.0.1"}
+module = {"name": "YouTube", "version": "0.0.2"}
 
-with OpenKey(HKEY_CURRENT_USER, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders') as key:
-    # Downloads = QueryValueEx(key, '{374DE290-123F-4565-9164-39C4925E467B}')[0]
-    Downloads = QueryValueEx(key, 'My Music')[0]
+
 
 
 @YouTube.route('/', methods=['GET'])
