@@ -11,9 +11,9 @@ In these times YouTube Converter are just filled with ads, are slow or not worki
 
 ## Installation
 
-  1. Download [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
-  2. Run [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/)
-  3. Download YouTube-Converter from the Chrome Webstore 
+  1. Download [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/YouTube-Converter/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
+  2. Run [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/YouTube-Converter/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
+  3. Download YouTube-Converter from the [Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/youtube-converter)
 
 ## Clone Repository
 
@@ -28,12 +28,14 @@ git clone https://github.com/philliphqs/YouTube-Converter.git
 
 ## Coming features
 * 0.0.2-alpha
+    * Publish addon to Firefox Store (already published)
+* 0.0.4
     * More formats (wav, avi, ...)
     * Custom Path
-    * Sytem tray
+    * System tray
 * 0.1.0
     * Publish addon to Chrome Webstore
-    * BetterDiscord Addon
+    * Editable MP3 data
 
 ## Meta
 
