@@ -13,7 +13,7 @@ In these times YouTube Converter are just filled with ads, are slow or not worki
 
   1. Download [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/YouTube-Converter/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
   2. Run [``YouTube-Converter-Setup.exe``](https://github.com/philliphqs/YouTube-Converter/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
-  3. Download YouTube-Converter from the [Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/youtube-converter)
+  3. Download YouTube-Converter from the [Firefox Store](https://addons.mozilla.org/firefox/addon/youtube-converter)
 
 ## Clone Repository
 
